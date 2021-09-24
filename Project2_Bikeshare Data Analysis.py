@@ -138,7 +138,7 @@ def trip_duration_stats(df):
         str(df['duration'].mean()))
     )
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis program took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
 
